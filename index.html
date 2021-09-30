@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Aim Training | Проект 5</title>
+</head>
+
+<body>
+  <div class="screen">
+    <h1>Aim Training</h1>
+    <a href="#" class="start" id="start">Начать игру</a>
+  </div>
+  <div class="screen">
+    <h1>Выберите время</h1>
+    <ul class="time-list" id="time-list">
+      <li>
+        <button class="time-btn" data-time="100">
+          10 сек
+        </button>
+      </li>
+      <li>
+        <button class="time-btn" data-time="200">
+          20 сек
+        </button>
+      </li>
+      <li>
+        <button class="time-btn" data-time="300">
+          30 сек
+        </button>
+      </li>
+      <li>
+        <button class="time-btn" data-time="600">
+          60 сек
+        </button>
+      </li>
+    </ul>
+
+
+    <h3 class="timeParent">Осталось <span id="time"></span></h3>
+    <div class="board cursor-Aim" id="board">
+      <h1 class="end-game-box">Cчет: <span class="primary scoreResult"></span> <button id="newGameBTN">Новая
+          игра</button></h1>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
